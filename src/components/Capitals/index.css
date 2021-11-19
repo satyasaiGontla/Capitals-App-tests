@@ -1,0 +1,52 @@
+/* Write your CSS here */
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #93c5fd;
+  height: 100vh;
+}
+.capitals-content {
+  background-color: #ffffff;
+  width: 92%;
+  padding: 20px;
+  border-radius: 17px;
+  max-width: 355px;
+}
+.heading {
+  color: #1e293b;
+  font-family: 'Roboto';
+  font-size: 24px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .heading {
+    text-align: left;
+    font-size: 32px;
+  }
+}
+
+.question-content {
+  display: flex;
+  align-items: center;
+}
+
+.question {
+  color: #000000;
+  font-family: 'Roboto';
+  font-size: 12px;
+  margin-left: 8px;
+}
+.option {
+  color: #323f4b;
+  font-family: 'Roboto';
+  font-size: 12px;
+  font-weight: 500;
+}
+
+@media screen and (min-width: 768px) {
+  .option {
+    font-size: 14px;
+  }
+}
